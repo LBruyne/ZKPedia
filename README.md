@@ -36,7 +36,7 @@ Articles and books of awesome and beautiful implementations that introduce ZK ar
 Parts of the contents are inspired by the below graph from a [speech](https://www.bilibili.com/video/BV17W4y1278w/?spm\_id\_from=333.999.0.0\&vd\_source=8b61d5dfa42b49437a734c2590cca7cd) given by Yupeng, Zhang.
 
 <div>
-<figure><img src=".gitbook/assets/Untitled.png" alt=""><figcaption><p>A category of Zero Knowledge Proof from Yupeng, Zhang</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Untitled.png" alt=""></figure>
 </div>
 
 ### Pioneer Work
