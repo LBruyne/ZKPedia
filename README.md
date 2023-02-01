@@ -10,9 +10,13 @@ Any useful revisions and pull requests (PR) are welcomed!
 
 
 
+## Introduction
+
 ### Verifiable Computing
 
 Verifiable Computing (VC) is
+
+
 
 ## Tech Terms
 
@@ -31,7 +35,15 @@ Articles and books of awesome and beautiful implementations that introduce ZK ar
 
 Parts of the contents are inspired by the below graph from a [speech](https://www.bilibili.com/video/BV17W4y1278w/?spm\_id\_from=333.999.0.0\&vd\_source=8b61d5dfa42b49437a734c2590cca7cd) given by Yupeng, Zhang.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7654bd70-3fc8-413a-ae8d-c9dd683e6ac8/Untitled.png)
+<div>
+
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7654bd70-3fc8-413a-ae8d-c9dd683e6ac8/Untitled.png" alt="Untitled">
+
+ 
+
+<figure><img src=".gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Pioneer Work
 
