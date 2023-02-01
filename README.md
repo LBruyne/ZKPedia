@@ -41,7 +41,7 @@ Parts of the contents are inspired by the below graph from a [speech](https://ww
 
  
 
-<figure><img src=".gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Untitled.png" alt=""><figcaption><p>A category of Zero Knowledge Proof from Yupeng, Zhang</p></figcaption></figure>
 
 </div>
 
