@@ -1,4 +1,4 @@
-# ZKPedia Catalogue
+# Layout
 
 _An encyclo**pedia** of **Z**ero **K**nowledge **P**roof._ The repository is also for recording my personal researches in **Verifiable Computing** and **Zero Knowledge** **Proof** area.
 
@@ -16,8 +16,6 @@ Any useful revisions and pull requests (PR) are welcomed!
 
 Verifiable Computing (VC) is
 
-
-
 ## Tech Terms
 
 These are some important technique terms (or, preliminaries) that may be learned before diving into this area. Some of the terms may appear during the journey as well.
@@ -26,8 +24,11 @@ These are some important technique terms (or, preliminaries) that may be learned
 * Schwartz-Zippel Lemma
 * Probabilistically Checkable Proof (PCP)
 * Bilinear Paring
-* Quadratic Span Program (QSP), Quadratic Arithmetic Program (QAP)
-  * [Quadratic Span Programs and Succinct NIZKs without PCPs](https://eprint.iacr.org/2012/215)
+*   Quadratic Span Program (QSP), Quadratic Arithmetic Program (QAP)
+
+    * [Quadratic Span Programs and Succinct NIZKs without PCPs](https://eprint.iacr.org/2012/215)
+
+
 
 ## Articles and Books
 
@@ -35,9 +36,7 @@ Articles and books of awesome and beautiful implementations that introduce ZK ar
 
 Parts of the contents are inspired by the below graph from a [speech](https://www.bilibili.com/video/BV17W4y1278w/?spm\_id\_from=333.999.0.0\&vd\_source=8b61d5dfa42b49437a734c2590cca7cd) given by Yupeng, Zhang.
 
-<div>
-<figure><img src=".gitbook/assets/Untitled.png" alt=""></figure>
-</div>
+<figure><img src=".gitbook/assets/Untitled.png" alt=""><figcaption></figcaption></figure>
 
 ### Pioneer Work
 
@@ -45,11 +44,13 @@ Parts of the contents are inspired by the below graph from a [speech](https://ww
 
 * [The knowledge complexity of interactive proof-systems](https://dl.acm.org/doi/abs/10.1145/3335741.3335750)
 * The concept of interactive proof is introduced. And the distinction between public coin and private coin (whether the verifier’s randomness is open/visible to the prover) is proved to be not crucial in the follow works.
+* Give an argument system that proof consists of 8 group elements and the verification cost of the verifier is some exponentiations and checking pairing product equation of 6 pairings.
 
 #### Fiat-Shamir Heuristic
 
 * How to prove yourself: Practical solutions to identification and signature problems
-*
+
+
 
 ### Interactive Proof Based Protocols
 
@@ -68,9 +69,11 @@ Parts of the contents are inspired by the below graph from a [speech](https://ww
 
 #### vSQL/ZGK17
 
-* vSQL: Verifying Arbitrary SQL Queries over Dynamic Outsourced Databases
+* [vSQL: Verifying Arbitrary SQL Queries over Dynamic Outsourced Databases](https://eprint.iacr.org/2017/1145)
 
 #### Hyrax/WTS+18
+
+* [Doubly-Efficient zkSNARKs Without Trusted Setup](https://eprint.iacr.org/2017/1132.pdf)
 
 #### Libra/XZZ19
 
@@ -119,7 +122,11 @@ These protocols are designed based on the bilinear pairing assumption. And they 
 
 ### Interactive Oracle Proof Based Protocols
 
+#### ZXH22
+
 * [Polynomial Commitment with a One-to-Many Prover and Applications](https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-jiaheng)
+
+
 
 ## Applications
 
