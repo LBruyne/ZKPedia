@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Layout](README.md)
+* [ZKPedia Catalogue](README.md)
