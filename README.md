@@ -1,4 +1,4 @@
-# Layout
+# ZKPedia
 
 _An encyclo**pedia** of **Z**ero **K**nowledge **P**roof._ The repository is also for recording my personal researches in **Verifiable Computing** and **Zero Knowledge** **Proof** area.
 
@@ -16,14 +16,20 @@ Any useful revisions and pull requests (PR) are welcomed!
 
 Verifiable Computing (VC) is
 
+
+
 ## Tech Terms
 
 These are some important technique terms (or, preliminaries) that may be learned before diving into this area. Some of the terms may appear during the journey as well.
 
-* Group, Ring and Field
-* Schwartz-Zippel Lemma
+* [Group, Ring and Field](tech-terms/group-ring-and-field.md)
+* [Schwartz-Zippel Lemma](tech-terms/schwartz-zippel-lemma.md)
+* [Commitment](tech-terms/commitment/)
+  * Polynomial Commitment
+  * Vector Commitment
 * Probabilistically Checkable Proof (PCP)
 * Bilinear Paring
+* [Low Degree Extension](tech-terms/low-degree-extention-lde.md)
 *   Quadratic Span Program (QSP), Quadratic Arithmetic Program (QAP)
 
     * [Quadratic Span Programs and Succinct NIZKs without PCPs](https://eprint.iacr.org/2012/215)
@@ -100,7 +106,7 @@ These protocols are designed based on the bilinear pairing assumption. And they 
 * [Quadratic Span Programs and Succinct NIZKs without PCPs](https://eprint.iacr.org/2012/215)
 * Found an insightful construction of polynomial equations based on Lagrange interpolation polynomials yielding a pairing-based NIZK argument with a CRS size proportional to the size of the statement and witness.
 
-#### PGHR13 (Pinocchio)
+#### Pinocchio/PGHR13
 
 * [Pinocchio: nearly practical verifiable computation](https://dl.acm.org/doi/10.1145/2856449)
 * Give an argument system that proof consists of 8 group elements and the verification cost of the verifier is some exponentiations and checking pairing product equation of 6 pairings.
