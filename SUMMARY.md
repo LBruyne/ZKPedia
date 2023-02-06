@@ -1,10 +1,7 @@
 # Table of contents
 
 * [ZKPedia](README.md)
-
-## Introduction
-
-* [Introduction](introduction/introduction.md)
+* [Introduction](introduction.md)
 
 ## Tech Terms
 
