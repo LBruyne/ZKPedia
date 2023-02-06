@@ -10,8 +10,6 @@ We'd like to collect other awesome materials as well, if they are related. Any u
 
 ## [Introduction](introduction/introduction.md)
 
-Click to see the formal definition of cryptographic primitives.
-
 
 
 ## Tech Terms
