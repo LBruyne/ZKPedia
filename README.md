@@ -108,7 +108,7 @@ These protocols are designed based on the bilinear pairing assumption. And they 
 #### BCTV14
 
 * [Scalable, transparent, and post-quantum secure computational integrity](https://eprint.iacr.org/2018/046)
-* \[Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture]\(Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture)
+* [Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
 
 #### Groth16
 
