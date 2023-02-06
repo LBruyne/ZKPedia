@@ -2,6 +2,10 @@
 
 * [ZKPedia](README.md)
 
+## Introduction
+
+* [Introduction](introduction/introduction.md)
+
 ## Tech Terms
 
 * [Group, Ring and Field](tech-terms/group-ring-and-field.md)

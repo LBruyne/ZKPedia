@@ -1,20 +1,16 @@
 # ZKPedia
 
-_An encyclo**pedia** of **Z**ero **K**nowledge **P**roof._ The repository is also for recording my personal researches in **Verifiable Computing** and **Zero Knowledge** **Proof** area.
+This repository is a_n encyclo**pedia** of **Z**ero **K**nowledge **P**roof._ Zero Knowledge Proof (**ZKP**) is a special family of Verifiable Computing (**VC**) which has an extra property called Zero Knowledge, actually. It has been proved that any VC system can be converted into a zero-knowledge version additionally. So it is important for researchers to learn VC system as well. The repository records the basic concepts of **VC** and **ZKP**, and a series of important articles and books in these areas (which are classical or novel achievements from a aspect of academic), along with some actual applications in various scienarios as well.
 
-Zero Knowledge Proof is a special family of Verifiable Computing (VC) which has an extra notion called Zero Knowledge, actually. It can be proved that any VC system can be converted to a zero-knowledge version additionally. So it is important for researchers to learn VC system as well.
+The repository is also for recording my personal researches in Verifiable Computing and Zero Knowledge Proof area.
 
-The repository records the basic concept of **VC** and **ZKP**, a series of important articles and books in these areas, and some applications.
-
-Any useful revisions and pull requests (PR) are welcomed!
+We'd like to collect other awesome materials as well, if they are related. Any useful revisions and pull requests (PR) are welcomed!
 
 
 
-## Introduction
+## [Introduction](introduction/introduction.md)
 
-### Verifiable Computing
-
-Verifiable Computing (VC) is
+Click to see the formal definition of cryptographic primitives.
 
 
 
