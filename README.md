@@ -8,9 +8,7 @@ We'd like to collect other awesome materials as well, if they are related. Any u
 
 
 
-## [Introduction](introduction.md)
-
-
+## [Introduction](introduction.md)&#x20;
 
 ## Tech Terms
 
@@ -74,6 +72,7 @@ Parts of the contents are inspired by the below graph from a [speech](https://ww
 #### Hyrax/WTS+18
 
 * [Doubly-Efficient zkSNARKs Without Trusted Setup](https://eprint.iacr.org/2017/1132.pdf)
+* Doubly-Efficient: Means efficiency for both the prover and the verifier.
 
 #### Libra/XZZ19
 
