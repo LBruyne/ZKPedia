@@ -130,3 +130,9 @@ These protocols are designed based on the bilinear pairing assumption. And they 
 ## Applications
 
 _To be finished._
+
+__
+
+## Other Learning Materials
+
+_To be finished._
