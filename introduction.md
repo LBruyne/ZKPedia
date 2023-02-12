@@ -37,7 +37,7 @@ $$
 \mathbf{Pr}[\mathbf{out}(x,t)=1]=1
 $$
 
-* \$$\epsilon\$$-**Soundness**: For any $$x \in \{0,1\}^n$$ and a incorrect claim $$f(x) \neq y$$, it holds that:
+* $$\epsilon$$-**Soundness**: For any $$x \in \{0,1\}^n$$ and a incorrect claim $$f(x) \neq y$$, it holds that:
 
 $$
 \mathbf{Pr}[\mathbf{out}(x,t)=1]=\epsilon (\epsilon \approx 0)
