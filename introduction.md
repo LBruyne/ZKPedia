@@ -19,26 +19,26 @@ Generally speaking, we can view verifiable computing as a collection of protocol
 
 We can say IPs are the most important schemes to implement VC.
 
-An interactive proof can be defined as a system that allows the prover $\mathcal{P}$ to convince the verifier $\mathcal{V}$ that the execution of some computation is correct through many rounds of interaction.
+An interactive proof can be defined as a system that allows the prover $$\mathcal{P}$$ to convince the verifier $$\mathcal{V}$$ that the execution of some computation is correct through many rounds of interaction.
 
 Formally, an interactive proof system can be defined as follow: 
 
-Given a prescribed function $f$ and some common inputs $x \in \{0,1\}^n$, $\mathcal{P}$ claimed it holds that the  $f(x)=y$. An interactive proof system consists of the prover and verifier ($\mathcal{P}$ and $\mathcal{V}$) and a collection of algorithms $\Pi$ running by them. $\mathcal{P}$ and $\mathcal{V}$ will exchange a sequence of messages $m_1...m_k$ which are outputs of algorithms inside $\Pi$. The entire sequence of k messages $t := (m_1, ... ,m_k)$  exchanged by $\mathcal{P}$ and $\mathcal{V}$, along with the claimed answer $y$, are called a transcript. At the end of the protocol, $\mathcal{V}$ should output $1$ for accepting the claim, or $0$ for rejecting it.
+Given a prescribed function $$f$$ and some common inputs $$x \in \{0,1\}^n$$, $$\mathcal{P}$$ claimed it holds that the  $$f(x)=y$$. An interactive proof system consists of the prover and verifier (namely, $$\mathcal{P}$$ and $$\mathcal{V}$$) and a collection of algorithms $$\Pi$$ running by them. $$\mathcal{P}$$ and $$\mathcal{V}$$ will exchange a sequence of messages $$m_1...m_k$$ which are outputs of algorithms inside $$\Pi$$. The entire sequence of k messages $$t := (m_1, ... ,m_k)$$  exchanged by $$\mathcal{P}$$ and $$\mathcal{V}$$, along with the claimed answer $$y$$, are called a transcript. At the end of the protocol, $$\mathcal{V}$$ should output $$1$$ for accepting the claim, or $$0$$ for rejecting it.
 
 See the [article](https://dl.acm.org/doi/abs/10.1145/3335741.3335750) of Goldwasser, Micali, and Rackoff for more details. 
 
 An interactive proof should have the following two properties: *completeness* and *soundness.*
 
-- **Completeness**: For every $x \in \{0,1\}^n$ and correct claim $y$, it holds that:
+- **Completeness**: For every $$x \in \{0,1\}^n$$ and correct claim $$y$$, it holds that:
 
 $$
 \mathbf{Pr}[\mathbf{out}(x,t)=1]=1
 $$
 
-- $\epsilon$-**Soundness**: For any $x \in \{0,1\}^n$ and a incorrect claim $f(x) \neq y$, it holds that:
+- $\epsilon$-**Soundness**: For any $$x \in \{0,1\}^n$$ and a incorrect claim $$f(x) \neq y$$, it holds that:
 
 $$
 \mathbf{Pr}[\mathbf{out}(x,t)=1]=\epsilon (\epsilon \approx 0)
 $$
 
-These property promises that the system will convince $\mathcal{V}$ the computation result for every correct claim and accept a wrong claim with only a negligible probability $\epsilon$.
+These property promises that the system will convince $$\mathcal{V}$$ the computation result for every correct claim and accept a wrong claim with only a negligible probability $$\epsilon$$.
