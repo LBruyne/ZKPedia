@@ -10,9 +10,13 @@ We'd like to collect other awesome materials as well, if they are related. Any u
 
 ## [Introduction](introduction.md)&#x20;
 
+What's Zero Knowledge Proof? And what does zk-SNARKs, zk-STARK... mean? What about interactive proofs and non-interactive proofs? Here gives an overview of these "profound" terms.
+
+
+
 ## Tech Terms
 
-These are some important technique terms (or, preliminaries) that may be learned before diving into this area. Some of the terms may appear during the journey as well.
+These are some important technique terms (or, preliminaries, in a researcher's tongue) that may be learned before diving into this area. Some of the terms may appear during the journey as well.
 
 * [Group, Ring and Field](tech-terms/group-ring-and-field.md)
 * [Schwartz-Zippel Lemma](tech-terms/schwartz-zippel-lemma.md)
