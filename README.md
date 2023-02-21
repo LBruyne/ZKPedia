@@ -65,13 +65,20 @@ Parts of the contents are inspired by the below graph from a [speech](https://ww
 * [Delegating Computation: Interactive Proofs for Muggles](https://dl.acm.org/doi/10.1145/2699436)
 * This work have 2 different version, one in STOC08, the other in JACM15.
 
-#### GKR Note
+#### Thaler13&#x20;
+
+* [Time-Optimal Interactive Proofs for Circuit Evaluation](https://link.springer.com/chapter/10.1007/978-3-642-40084-1\_5)
+
+#### Thaler15
 
 * [A Note on the GKR Protocol](https://people.cs.georgetown.edu/jthaler/GKRNote.pdf)
 
-#### vSQL/ZGK17
+#### vSQL/ZGK+17
 
 * [vSQL: Verifying Arbitrary SQL Queries over Dynamic Outsourced Databases](https://eprint.iacr.org/2017/1145)
+* This paper combines GKR(CMT) protocol with KZG polynomial commitment together. That obtains a succinct interactive proof system allows for any size of inputs and high proving efficiency. This protocol is applied to a verifiable database scenario for verifying arbitrary SQL query against probably malicious server.
+* [Multilinear extension and its compositional property.](tech-terms/low-degree-extention-lde.md)
+* A zero-knowledge version: [A zero-knowledge version of vSQL](https://eprint.iacr.org/2017/1146).
 
 #### Hyrax/WTS+18
 
